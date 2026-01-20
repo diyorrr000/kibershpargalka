@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHONAZAROV | Kiberxavfsizlik</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="scanner">
+            <div class="fingerprint"></div>
+            <h3>Tizim yuklanmoqda...</h3>
+        </div>
+    </div>
+
+    <!-- Background Particles (Canvas or CSS) -->
+    <div class="bg-animation">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h1>CyberSec<span>Pro</span></h1>
+            </div>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="searchInput" placeholder="Savolni qidirish...">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="stats">
+            <p>Jami savollar: <span id="total-count">0</span></p>
+        </div>
+        <div id="questions-container" class="cyber-grid">
+            <!-- Questions will be injected here -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 SHONAZAROV. Kiberxavfsizlik bo'yicha professional tayyorgarlik.</p>
+                <div class="credits">
+                    <p>Yaratuvchi: <a href="https://t.me/securexxx" target="_blank" class="creator-link">@securexxx</a>
+                    </p>
+                    <p>BAZA GURUHIMIZ: <a href="https://t.me/tatu_baza_1k" target="_blank"
+                            class="partner-link">@tatu_baza_1k</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
